@@ -40,12 +40,11 @@
         
         // Grid (same size as the background), with a ripple effect
        
-        //CCRipple3D* backgroundWaves = [CCRipple3D actionWithDuration:10 size:background.size position:ccp(0,0) radius:10.0f waves:5 amplitude:10.0f];
+        CCRipple3D* backgroundWaves = [CCRipple3D actionWithDuration:10 size:ccg(0.1,0.1) position:ccp(0,0) radius:50.0f waves:5 amplitude:55.0f];
 
         // Repeat the "backgroundWaves" instance forever
-        //CCRepeatForever* repeatWaves;
-        //backgroundWaves = [CCRepeatForever actionWithAction:repeatWaves];
-        //[background runAction:backgroundWaves];
+        CCRepeatForever* repeatWaves = [CCRepeatForever actionWithAction:backgroundWaves];;
+        [background runAction:repeatWaves];
         
         //[background runAction: [CCRepeatForever actionWithAction: backgroundWaves]];
         

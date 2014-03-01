@@ -459,7 +459,7 @@
 		DCC1A0DD13A94EC0005BD75D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMPRESS_PNG_FILES = YES;
+				COMPRESS_PNG_FILES = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 			};
@@ -468,7 +468,7 @@
 		DCC1A0DE13A94EC0005BD75D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMPRESS_PNG_FILES = YES;
+				COMPRESS_PNG_FILES = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 			};
 			name = Release;
