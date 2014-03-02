@@ -43,7 +43,7 @@ local config =
 	
 		-- Ad setup
 		EnableAdBanner = NO,
-		PlaceBannerOnBottom = YES,
+		PlaceBannerOnBottom = NO,
 		LoadOnlyPortraitBanners = NO,
 		LoadOnlyLandscapeBanners = NO,
 		AdProviders = "iAd, AdMob",	-- comma seperated list -> "iAd, AdMob" means: use iAd if available, otherwise AdMob

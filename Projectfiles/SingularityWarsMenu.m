@@ -34,7 +34,7 @@
 		
         // Sprite with background, and its position (at the center of the screen)
         
-        CCSprite* background = [CCSprite spriteWithFile:@"Background.png"];
+        CCSprite* background = [CCSprite spriteWithFile:@"Background2.png"];
         background.anchorPoint = ccp(0,0);
         [self addChild:background];
 		
@@ -51,7 +51,7 @@
 		particulasBackground.duration = -1;
 		particulasBackground.emissionRate = 700;
 		particulasBackground.sourcePosition = ccp(0,0);
-		particulasBackground.startColor = ccc4f(0.1f, 0.7f, 0.3f, 0.1f);
+		particulasBackground.startColor = ccc4f(0.1f, 0.7f, 0.3f, 1.0f);
 		[self addChild:particulasBackground];
 		
 //		CCSprite* particleTexture = [CCSprite spriteWithFile:@"particle.png"];
@@ -71,7 +71,7 @@
 		CCLabelTTF* title = [CCLabelTTF labelWithString:@"Singularity Wars" fontName:@"technoid" fontSize:80];
 		title.anchorPoint = ccp(0,0);
 		title.position = ccp(70,650);
-		title.color = ccYELLOW;
+		title.color = ccWHITE;
 		[self addChild:title];
 		
 		// Fade-in animation for title
@@ -85,7 +85,7 @@
 		CCLabelTTF* subTitle = [CCLabelTTF labelWithString:@"-ABGWR-" fontName:@"technoid" fontSize:45];
 		subTitle.anchorPoint = ccp(0,0);
 		subTitle.position = ccp(400,600);
-		subTitle.color = ccYELLOW;
+		subTitle.color = ccWHITE;
 		[self addChild:subTitle];
 		
 		// Fade-in animation for subtitle

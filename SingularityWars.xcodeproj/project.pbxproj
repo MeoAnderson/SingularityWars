@@ -15,6 +15,13 @@
 		C636F03118C2BED900A37A9F /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = C636F02F18C2BED900A37A9F /* particle.png */; };
 		C636F03318C2D1B000A37A9F /* menu2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C636F03218C2D1B000A37A9F /* menu2.m4a */; };
 		C636F03418C2D1B000A37A9F /* menu2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C636F03218C2D1B000A37A9F /* menu2.m4a */; };
+		C636F03618C2E6B500A37A9F /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = C636F03518C2E6B500A37A9F /* Background2.png */; };
+		C636F03718C2E6B500A37A9F /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = C636F03518C2E6B500A37A9F /* Background2.png */; };
+		C636F03918C2EA1900A37A9F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C636F03818C2EA1900A37A9F /* Default.png */; };
+		C636F03A18C2EA1900A37A9F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C636F03818C2EA1900A37A9F /* Default.png */; };
+		C636F03C18C2EDC800A37A9F /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C636F03B18C2EDC800A37A9F /* appicon.png */; };
+		C636F03D18C2EDC800A37A9F /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C636F03B18C2EDC800A37A9F /* appicon.png */; };
+		C636F03F18C2F12D00A37A9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C636F03E18C2F12D00A37A9F /* Images.xcassets */; };
 		C680F66918C10C050068E9C0 /* level.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C680F66818C10C050068E9C0 /* level.mp3 */; };
 		C680F66A18C10C050068E9C0 /* level.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C680F66818C10C050068E9C0 /* level.mp3 */; };
 		C6CCD6A018C020B90053DEEF /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CCD69F18C020B90053DEEF /* Background.png */; };
@@ -67,6 +74,10 @@
 		C636F02918C2883700A37A9F /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
 		C636F02F18C2BED900A37A9F /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle.png; sourceTree = "<group>"; };
 		C636F03218C2D1B000A37A9F /* menu2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu2.m4a; sourceTree = "<group>"; };
+		C636F03518C2E6B500A37A9F /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background2.png; sourceTree = "<group>"; };
+		C636F03818C2EA1900A37A9F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C636F03B18C2EDC800A37A9F /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		C636F03E18C2F12D00A37A9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "SingularityWars-iOS/Images.xcassets"; sourceTree = "<group>"; };
 		C680F66818C10C050068E9C0 /* level.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = level.mp3; sourceTree = "<group>"; };
 		C6CCD69F18C020B90053DEEF /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		DC21B8881511078F00FD4891 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fps_images-hd.png"; sourceTree = "<group>"; };
@@ -178,6 +189,9 @@
 		C6CCD69E18C020950053DEEF /* Textures */ = {
 			isa = PBXGroup;
 			children = (
+				C636F03B18C2EDC800A37A9F /* appicon.png */,
+				C636F03818C2EA1900A37A9F /* Default.png */,
+				C636F03518C2E6B500A37A9F /* Background2.png */,
 				C636F02F18C2BED900A37A9F /* particle.png */,
 				C6CCD69F18C020B90053DEEF /* Background.png */,
 			);
@@ -187,6 +201,7 @@
 		DCC1A0D613A94EC0005BD75D = {
 			isa = PBXGroup;
 			children = (
+				C636F03E18C2F12D00A37A9F /* Images.xcassets */,
 				DCC1A38C13A94F1A005BD75D /* Projectfiles */,
 				DCC1A0F713A94ED5005BD75D /* Projectfiles-iOS */,
 				DCC1A26413A94EE6005BD75D /* Projectfiles-Mac */,
@@ -389,14 +404,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C636F03918C2EA1900A37A9F /* Default.png in Resources */,
+				C636F03F18C2F12D00A37A9F /* Images.xcassets in Resources */,
 				DCC1A0FA13A94ED5005BD75D /* Default.png in Resources */,
 				C636F03318C2D1B000A37A9F /* menu2.m4a in Resources */,
 				DCC1A0FE13A94ED5005BD75D /* Icon-72.png in Resources */,
 				C680F66918C10C050068E9C0 /* level.mp3 in Resources */,
 				DCC1A10013A94ED5005BD75D /* Icon-Small-50.png in Resources */,
+				C636F03C18C2EDC800A37A9F /* appicon.png in Resources */,
 				DCC1A10213A94ED5005BD75D /* Icon-Small.png in Resources */,
 				C636F03018C2BED900A37A9F /* particle.png in Resources */,
 				C636F02A18C2883700A37A9F /* menu.mp3 in Resources */,
+				C636F03618C2E6B500A37A9F /* Background2.png in Resources */,
 				DCC1A10413A94ED5005BD75D /* Icon-Small@2x.png in Resources */,
 				DCC1A10613A94ED5005BD75D /* Icon.png in Resources */,
 				DCC1A10813A94ED5005BD75D /* Icon@2x.png in Resources */,
@@ -415,10 +434,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C636F03718C2E6B500A37A9F /* Background2.png in Resources */,
+				C636F03A18C2EA1900A37A9F /* Default.png in Resources */,
 				C619765C18C0044100CA3E9F /* technoid.ttf in Resources */,
 				DCC1A26913A94EE6005BD75D /* InfoPlist.strings in Resources */,
 				C680F66A18C10C050068E9C0 /* level.mp3 in Resources */,
 				DCC1A26C13A94EE6005BD75D /* MainMenu.xib in Resources */,
+				C636F03D18C2EDC800A37A9F /* appicon.png in Resources */,
 				C636F03418C2D1B000A37A9F /* menu2.m4a in Resources */,
 				C6CCD6A118C020B90053DEEF /* Background.png in Resources */,
 				C636F03118C2BED900A37A9F /* particle.png in Resources */,
@@ -477,17 +499,21 @@
 		DCC1A0DD13A94EC0005BD75D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMPRESS_PNG_FILES = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		DCC1A0DE13A94EC0005BD75D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMPRESS_PNG_FILES = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -495,6 +521,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90EF13B4F6F7009DD35A /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -504,6 +532,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCFA90F013B4F811009DD35A /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
