@@ -17,13 +17,13 @@ local config =
 	KKStartupConfig = 
 	{
 		-- load first scene from a class with this name, or from a Lua script with this name with .lua appended
-		FirstSceneClassName = "SingularityWarsMenu",
+		FirstSceneClassName = "Menu",
 
 		MaxFrameRate = 60,
 		DisplayFPS = YES,
 
 		EnableUserInteraction = YES,
-		EnableMultiTouch = NO,
+		EnableMultiTouch = YES,
 
 		-- Render settings
 		DefaultTexturePixelFormat = TexturePixelFormat.RGBA8888,
@@ -50,12 +50,12 @@ local config =
 		AdMobRefreshRate = 15,
 		AdMobFirstAdDelay = 5,
 		AdMobPublisherID = "YOUR_ADMOB_PUBLISHER_ID", -- how to get an AdMob Publisher ID: http://developer.admob.com/wiki/PublisherSetup
-		AdMobTestMode = YES,
+		AdMobTestMode = NO,
 	
 		-- Mac OS specific settings
-		AutoScale = NO,
+		AutoScale = YES,
 		AcceptsMouseMovedEvents = YES,
-		EnableFullScreen = NO,
+		EnableFullScreen = YES,
 	},
 }
 

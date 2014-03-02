@@ -103,24 +103,3 @@
 }
 
 @end
-
-
-/*
- 
- UNUSED CODE
- 
- // Grid sprite
- CCSprite* grid = [CCSprite spriteWithFile:@"grid.png"];
- grid.anchorPoint = ccp(0,0);
- [self addChild:grid];
- */
-// Grid (same size as the background), with a ripple effect
-/*
- CCRipple3D* backgroundWaves = [CCRipple3D actionWithDuration:10
- size:ccg(20,20)
- position:ccp(20,20)
- radius:1.0f
- a	   waves:3
- amplitude:20.0f];
- 
- */
