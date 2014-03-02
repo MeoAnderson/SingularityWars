@@ -17,12 +17,12 @@
  
  */
 
-#import "SingularityWarsMenu.h"
+#import "Menu.h"
 
-@interface SingularityWarsMenu (PrivateMethods)
+@interface Menu (PrivateMethods)
 @end
 
-@implementation SingularityWarsMenu
+@implementation Menu
 
 -(id) init
 {
@@ -40,8 +40,8 @@
 		
 		// Fade-in animation for background
 		
-		CCFadeIn* animatingBackground = [CCFadeIn actionWithDuration:3];
-		animatingBackground.duration = 3;
+		CCFadeIn* animatingBackground = [CCFadeIn actionWithDuration:2];
+		animatingBackground.duration = 2;
 		[background runAction:animatingBackground];
 		
 		//Background particles

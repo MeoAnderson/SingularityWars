@@ -8,7 +8,7 @@
 #import "kobold2d.h"
 #import "SimpleAudioEngine.h"
 
-@interface SingularityWarsMenu : CCLayer
+@interface Menu : CCLayer
 {
 }
 
