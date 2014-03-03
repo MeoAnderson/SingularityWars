@@ -36,8 +36,6 @@
 		<true/>
 		<key>armv7</key>
 		<true/>
-		<key>gamekit</key>
-		<true/>
 		<key>opengles-2</key>
 		<true/>
 	</dict>
