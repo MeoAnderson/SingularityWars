@@ -32,7 +32,7 @@
 		[background runAction:animatingBackground];
 		
 		
-		/*
+		
 		//Background particles
 		CCParticleExplosion* particulasBackground = [CCParticleExplosion particleWithTotalParticles:2000];
 		particulasBackground.speed = 150.0f;
@@ -41,14 +41,8 @@
 		particulasBackground.sourcePosition = ccp(0,0);
 		particulasBackground.startColor = ccc4f(0.1f, 0.7f, 0.3f, 1.0f);
 		[self addChild:particulasBackground];
-		 */
-		
-		CCParticleGalaxy* particleGalaxy = [CCParticleGalaxy particleWithTotalParticles:2000];
-		particleGalaxy.duration = -1;
-		particleGalaxy.emissionRate = 700;
-		particleGalaxy.position = ccp(0,0);
-		
-		[self addChild:particleGalaxy];
+		 
+	
 		
 		// Grid, above background
         CCSprite* grid = [CCSprite spriteWithFile:@"grid.png"];
@@ -89,14 +83,7 @@
 		CCFadeIn* animatingTitle = [CCFadeIn actionWithDuration:3];
 		[title runAction:animatingTitle];
 		
-		
-		
-		// Shaky effect for the logo
-		//CCShaky3D* shakingTitle = [CCShaky3D actionWithDuration:1 size:ccg(1,1) range:1 shakeZ:NO];
-		//CCRepeatForever* repeatShakingTitle = [CCRepeatForever actionWithAction:shakingTitle];
-		//[title runAction:repeatShakingTitle];
-		
-		
+
 		
 		// "Singularity Wars" subtitle, "ABGWR"
 		CCLabelTTF* subTitle = [CCLabelTTF labelWithString:@"-ABGWR-" fontName:@"technoid" fontSize:45];
@@ -111,6 +98,8 @@
 		CCFadeIn* animatingSubTitle = [CCFadeIn actionWithDuration:3];
 		[subTitle runAction:animatingSubTitle];
 				
+
+		
 		
 	}
 	

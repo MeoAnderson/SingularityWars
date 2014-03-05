@@ -24,6 +24,8 @@
 		C636F03F18C2F12D00A37A9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C636F03E18C2F12D00A37A9F /* Images.xcassets */; };
 		C680F66918C10C050068E9C0 /* level.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C680F66818C10C050068E9C0 /* level.mp3 */; };
 		C680F66A18C10C050068E9C0 /* level.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C680F66818C10C050068E9C0 /* level.mp3 */; };
+		C69BC2E418C699A500DB1388 /* Options.m in Sources */ = {isa = PBXBuildFile; fileRef = C69BC2E318C699A500DB1388 /* Options.m */; };
+		C69BC2E518C699A500DB1388 /* Options.m in Sources */ = {isa = PBXBuildFile; fileRef = C69BC2E318C699A500DB1388 /* Options.m */; };
 		C6C8DC6F18C5153E00633DF7 /* teste.png in Resources */ = {isa = PBXBuildFile; fileRef = C6C8DC6E18C5153E00633DF7 /* teste.png */; };
 		C6C8DC7018C5153E00633DF7 /* teste.png in Resources */ = {isa = PBXBuildFile; fileRef = C6C8DC6E18C5153E00633DF7 /* teste.png */; };
 		C6C8DC7818C54AF700633DF7 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C6C8DC7718C54AF700633DF7 /* README.rtf */; };
@@ -87,6 +89,8 @@
 		C636F03B18C2EDC800A37A9F /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		C636F03E18C2F12D00A37A9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "SingularityWars-iOS/Images.xcassets"; sourceTree = "<group>"; };
 		C680F66818C10C050068E9C0 /* level.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = level.mp3; sourceTree = "<group>"; };
+		C69BC2E218C699A500DB1388 /* Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Options.h; sourceTree = "<group>"; };
+		C69BC2E318C699A500DB1388 /* Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Options.m; sourceTree = "<group>"; };
 		C6C8DC6E18C5153E00633DF7 /* teste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teste.png; sourceTree = "<group>"; };
 		C6C8DC7718C54AF700633DF7 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = README.rtf; path = Projectfiles/README.rtf; sourceTree = "<group>"; };
 		C6C8DC7A18C5559C00633DF7 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
@@ -327,6 +331,8 @@
 			children = (
 				DCC1A38F13A94F1A005BD75D /* Menu.h */,
 				DCC1A39013A94F1A005BD75D /* Menu.m */,
+				C69BC2E218C699A500DB1388 /* Options.h */,
+				C69BC2E318C699A500DB1388 /* Options.m */,
 				DCC1A38D13A94F1A005BD75D /* AppDelegate.h */,
 				DCC1A38E13A94F1A005BD75D /* AppDelegate.m */,
 				DCC1A39413A94F1A005BD75D /* Resources */,
@@ -518,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69BC2E418C699A500DB1388 /* Options.m in Sources */,
 				DCC1A3A913A94F1A005BD75D /* AppDelegate.m in Sources */,
 				DCC1A3AB13A94F1A005BD75D /* Menu.m in Sources */,
 				DCC1A3AD13A94F1A005BD75D /* main.m in Sources */,
@@ -528,6 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69BC2E518C699A500DB1388 /* Options.m in Sources */,
 				DCC1A3AA13A94F1A005BD75D /* AppDelegate.m in Sources */,
 				DCC1A3AC13A94F1A005BD75D /* Menu.m in Sources */,
 				DCC1A3AE13A94F1A005BD75D /* main.m in Sources */,
@@ -585,6 +593,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/vascopatricio/Kobold2D/Kobold2D-2.1.0/SingularityWars",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -599,6 +611,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/vascopatricio/Kobold2D/Kobold2D-2.1.0/SingularityWars",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -610,6 +626,10 @@
 			baseConfigurationReference = DC9C33E713B5024400931BF2 /* BuildSettings-Debug-Mac.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/vascopatricio/Kobold2D/Kobold2D-2.1.0/SingularityWars",
+				);
 			};
 			name = Debug;
 		};
@@ -618,6 +638,10 @@
 			baseConfigurationReference = DC9C33E913B5024400931BF2 /* BuildSettings-Release-Mac.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/vascopatricio/Kobold2D/Kobold2D-2.1.0/SingularityWars",
+				);
 			};
 			name = Release;
 		};
